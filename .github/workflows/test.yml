@@ -40,7 +40,7 @@ jobs:
       - run: corepack enable
       - name: Install pnpm dependencies
         run: pnpm install --frozen-lockfile
-
+      - run: pnpm run build
       - name: Run examples
         run: cd examples && npm run build
 
