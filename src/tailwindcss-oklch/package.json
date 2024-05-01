@@ -1,0 +1,24 @@
+{
+  "name": "@alexaka1/tailwindcss-oklch",
+  "version": "0.0.0",
+  "description": "Bring OKLCH colors to tailwind and introduces handy color utilities",
+  "repository": "https://github.com/alexaka1/tailwindcss-oklch",
+  "author": "Alex Martossy <github@mail.martossy.hu>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "colorjs.io": "^0.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "oklch",
+    "colors",
+    "color contrast"
+  ]
+}

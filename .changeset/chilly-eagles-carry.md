@@ -1,5 +1,5 @@
 ---
-"@alexaka1/tailwindcss-oklch": patch
+'@alexaka1/tailwindcss-oklch': patch
 ---
 
 Initial release

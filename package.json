@@ -1,16 +1,12 @@
 {
-  "name": "@alexaka1/tailwindcss-oklch",
+  "name": "root",
   "version": "0.0.0",
+  "private": true,
   "packageManager": "pnpm@9.1.0-0+sha256.c557b24d2298d9b5e3be7086ebf55a28253b008324d545f72645a6de89844102",
-  "description": "Bring OKLCH colors to tailwind and introduces handy color utilities",
   "author": "Alex Martossy <github@mail.martossy.hu>",
   "license": "MIT",
-  "repository": "https://github.com/alexaka1/tailwindcss-oklch",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "tsup src/tailwindcss-oklch/src/index.ts --format cjs,esm --dts",
     "release": "pnpm run build && changeset publish",
     "lint": "tsc",
     "fmt": "prettier --check . --experimental-ternaries",
@@ -18,24 +14,11 @@
     "changeset": "changeset",
     "version": "changeset version"
   },
-  "dependencies": {
-    "colorjs.io": "^0.5.0"
-  },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.3",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "keywords": [
-    "tailwind",
-    "tailwindcss",
-    "oklch",
-    "colors",
-    "color contrast"
-  ]
+  }
 }
