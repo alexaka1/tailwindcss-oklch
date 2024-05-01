@@ -1,6 +1,6 @@
 {
   "name": "@alexaka1/tailwindcss-oklch",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
   "description": "Bring OKLCH colors to tailwind and introduces handy color utilities",
   "repository": "https://github.com/alexaka1/tailwindcss-oklch",
