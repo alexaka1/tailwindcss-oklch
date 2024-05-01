@@ -6,13 +6,14 @@
   "author": "Alex Martossy <github@mail.martossy.hu>",
   "license": "MIT",
   "scripts": {
-    "build": "pnpm --filter tailwindcss-oklch run build",
+    "build": "pnpm exec nx run-many -t build ",
     "release": "pnpm --filter tailwindcss-oklch run release && changeset publish",
     "lint": "pnpm --filter tailwindcss-oklch run lint ",
     "fmt": "prettier --check . --experimental-ternaries",
     "fmt:fix": "prettier --write . --experimental-ternaries",
     "changeset": "changeset",
-    "version": "changeset version"
+    "version": "changeset version",
+    "graph": "pnpm exec nx graph"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
