@@ -14,7 +14,8 @@
     "release": "pnpm run build && changeset publish",
     "lint": "tsc",
     "fmt": "prettier --check . --experimental-ternaries",
-    "fmt:fix": "prettier --write . --experimental-ternaries"
+    "fmt:fix": "prettier --write . --experimental-ternaries",
+    "changeset": "changeset"
   },
   "dependencies": {
     "colorjs.io": "^0.5.0"
