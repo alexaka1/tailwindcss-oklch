@@ -6,9 +6,9 @@
   "author": "Alex Martossy <github@mail.martossy.hu>",
   "license": "MIT",
   "scripts": {
-    "build": "tsup src/tailwindcss-oklch/src/index.ts --format cjs,esm --dts",
-    "release": "pnpm run build && changeset publish",
-    "lint": "tsc",
+    "build": "pnpm --filter tailwindcss-oklch run build",
+    "release": "pnpm --filter tailwindcss-oklch run release",
+    "lint": "pnpm --filter tailwindcss-oklch run lint ",
     "fmt": "prettier --check . --experimental-ternaries",
     "fmt:fix": "prettier --write . --experimental-ternaries",
     "changeset": "changeset",

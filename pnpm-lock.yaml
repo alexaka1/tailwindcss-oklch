@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      colorjs.io:
-        specifier: ^0.5.0
-        version: 0.5.0
     devDependencies:
       '@changesets/cli':
         specifier: ^2.27.1
@@ -27,6 +23,12 @@ importers:
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
+
+  src/tailwindcss-oklch:
+    dependencies:
+      colorjs.io:
+        specifier: ^0.5.0
+        version: 0.5.0
 
 packages:
 

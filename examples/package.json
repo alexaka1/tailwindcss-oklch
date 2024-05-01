@@ -9,8 +9,5 @@
     "dev": "tailwindcss -i ./src/main.css -o ./dist/main.css --watch"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "workspace:*"
-  }
+  "license": "ISC"
 }

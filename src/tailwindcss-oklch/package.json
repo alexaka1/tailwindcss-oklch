@@ -1,6 +1,7 @@
 {
   "name": "@alexaka1/tailwindcss-oklch",
   "version": "0.0.0",
+  "private": false,
   "description": "Bring OKLCH colors to tailwind and introduces handy color utilities",
   "repository": "https://github.com/alexaka1/tailwindcss-oklch",
   "author": "Alex Martossy <github@mail.martossy.hu>",
@@ -8,6 +9,11 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
+    "lint": "tsc"
+  },
   "dependencies": {
     "colorjs.io": "^0.5.0"
   },
