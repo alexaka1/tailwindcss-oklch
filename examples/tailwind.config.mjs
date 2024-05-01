@@ -1,10 +1,10 @@
+import defaultTheme from 'tailwindcss/defaultTheme';
+import oklch from '@alexaka1/tailwindcss-oklch';
+
 /** @type {import('tailwindcss').Config} */
-
-const defaultTheme = require('tailwindcss/defaultTheme');
-
 module.exports = {
   content: ['index.html'],
-  plugins: [require('@alexaka1/tailwindcss-oklch')()],
+  plugins: [oklch()],
   theme: {
     extend: {
       colors: {
