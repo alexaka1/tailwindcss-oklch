@@ -1,5 +1,11 @@
 # @alexaka1/tailwindcss-oklch
 
+## 0.0.3
+
+### Patch Changes
+
+- e3fa59c: Fix case when for hue gray colors, that also have a chroma of 0.
+
 ## 0.0.2
 
 ### Patch Changes
