@@ -64,6 +64,9 @@ export default plugin.withOptions<TailwindOklchOptions>(
           if (value === undefined || typeof value === 'string') {
             return value;
           }
+          if (Number.isNaN(value)) {
+            return (0).toString();
+          }
           return value.toFixed(precision).replace(/\.?0+$/, '');
         };
 
