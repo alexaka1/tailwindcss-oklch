@@ -1,5 +1,13 @@
 # @alexaka1/tailwindcss-oklch
 
+## 0.0.4
+
+### Patch Changes
+
+- 9dcd8eb: Revert min-max contrast
+
+  It is causing problems now. This now brings this package back in line with upstreams `0.0.1` release.
+
 ## 0.0.3
 
 ### Patch Changes
