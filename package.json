@@ -18,7 +18,7 @@
     "@changesets/cli": "^2.27.1",
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.3",
-    "tsup": "^8.0.2",
+    "tsup": "^8.1.0",
     "typescript": "^5.4.5"
   }
 }
